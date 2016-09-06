@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06ae0b80-9f0f-4cda-94bf-addda27747f7" name="Default" comment="" />
+    <list default="true" id="06ae0b80-9f0f-4cda-94bf-addda27747f7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_module.rb" afterPath="$PROJECT_DIR$/main_module.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_register.rb" afterPath="$PROJECT_DIR$/test_register.rb" />
+    </list>
     <ignored path="SeconDok_Tests.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -13,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SeconDok_Tests@test_register__SeconDok_Tests.coverage" NAME="test_register: SeconDok_Tests Coverage Results" MODIFIED="1473164954620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
+    <SUITE FILE_PATH="coverage/SeconDok_Tests@test_register__SeconDok_Tests.coverage" NAME="test_register: SeconDok_Tests Coverage Results" MODIFIED="1473170710594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
     <SUITE FILE_PATH="coverage/SeconDok_Tests@Run_test__TestRegistration___SeconDok_Tests.coverage" NAME="Run test 'TestRegistration': SeconDok_Tests Coverage Results" MODIFIED="1472822153374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
     <SUITE FILE_PATH="coverage/SeconDok_Tests@test_positive__SeconDok_Tests.coverage" NAME="test_positive: SeconDok_Tests Coverage Results" MODIFIED="1472821847620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
   </component>
@@ -36,27 +40,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_register.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_register.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_register.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="272">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_module.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main_module.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_module.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-680">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,6 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -124,13 +133,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_register: SeconDok_Tests">
     <configuration default="false" name="test_positive: SeconDok_Tests" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
@@ -337,47 +344,48 @@
       <workItem from="1472821929066" duration="2479000" />
       <workItem from="1473062722065" duration="12714000" />
       <workItem from="1473078574650" duration="7575000" />
-      <workItem from="1473144895946" duration="16596000" />
+      <workItem from="1473144895946" duration="22077000" />
+      <workItem from="1473170464202" duration="1701000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 14h 59m 19s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 16h 58m 21s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 15h 01m 55s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 16h 58m 32s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 15h 05m 22s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 16h 58m 44s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 15h 08m 10s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 16h 59m 02s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 15h 12m 07s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 16h 59m 14s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 15h 16m 04s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 17h 00m 17s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 15h 20m 02s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 17h 00m 25s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 15h 23m 38s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 17h 00m 46s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 15h 26m 16s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 17h 01m 12s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 15h 28m 19s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 17h 08m 04s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39776000" />
+    <option name="totallyTimeSpent" value="46958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1688" y="16" width="1696" height="1026" extended-state="6" />
+    <frame x="-1688" y="16" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14285715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -385,7 +393,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35487404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35487404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -411,10 +419,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_register.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -502,18 +536,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_module.rb">
+    <entry file="file://$PROJECT_DIR$/test_register.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_register.rb">
+    <entry file="file://$PROJECT_DIR$/main_module.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>

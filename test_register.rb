@@ -18,48 +18,17 @@ class TestRegistration < Test::Unit::TestCase
     rules
     first_dot
     second_dot
-    @driver.find_elements(:name, 'reg_tags').each do |spec|
-      spec.click if spec.displayed?
-    end
-    sleep 3
-    @driver.find_elements(css: '[data-id="2"]').each do |spec1|
-      spec1.click if spec1.displayed?
-    end
-    @driver.find_elements(css: '.choose.choose_educt').each do |educt|
-      educt.click if educt.displayed?
-    end
-    @driver.find_elements(css: '.inp_search.inp_country input').each do |hospital|
-      hospital.send_keys 'второй' if hospital.displayed?
-    end
-    sleep 3
-    @driver.find_elements(css: '[data-id="5"]').each do |hospital1|
-      hospital1.click if hospital1.displayed?
-    end
-   # @driver.find_elements(css: '.inp_search.inp_country input').each do |year_start| year_start.send_keys '2010' if year_start.displayed? end
-    sleep 3
-    @driver.find_elements(css: '[data-id="2010"]').each do |year1|
-      year1.click if year1.displayed?
-    end
-   # @driver.find_elements(css: '.inp_search.inp_country input').each do |year_finish| year_finish.send_keys '2016' if year_finish.displayed? end
-    sleep 3
-    @driver.find_elements(css: '[data-id="2010"]').each do |year2|
-      year2.click if year2.displayed?
-    end
-   # @driver.find_elements(css: '.inp_search.inp_country input').each do |spec| spec.send_keys 'Нейрохирургия' if spec.displayed? end
-    sleep 3
-    @driver.find_elements(css: '[data-id="28"]').each do |spec1|
-      spec1.click if spec1.displayed?
-    end
+    third_dot
+    fouth_dot
+    fifth_dot
+    finish
+    sleep 2
+    #expected_test = 'Ваши данные отправлены на проверку. Мы свяжемся с Вами для подтверждения информации в ближайшее время'
+    actual_test = @driver.find_element(css: '.end_text.ng-binding') #.text
+   # assert_equal(expected_test, actual_test)
+    assert(actual_test.displayed?)
 
-
-
-    @wait.until { @driver.find_elements(css: '.go_next') }
-    @driver.find_elements(css: '.btn.btn_green.ng-binding').each do |next_button|
-      next_button.click if next_button.displayed?
-    end
-    sleep 5
-
-end
+  end
   def teardown         # close browser
     @driver.quit
   end
