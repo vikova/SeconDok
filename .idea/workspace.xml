@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SeconDok_Tests@test_register__SeconDok_Tests.coverage" NAME="test_register: SeconDok_Tests Coverage Results" MODIFIED="1473149382502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
+    <SUITE FILE_PATH="coverage/SeconDok_Tests@test_register__SeconDok_Tests.coverage" NAME="test_register: SeconDok_Tests Coverage Results" MODIFIED="1473159081187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
     <SUITE FILE_PATH="coverage/SeconDok_Tests@Run_test__TestRegistration___SeconDok_Tests.coverage" NAME="Run test 'TestRegistration': SeconDok_Tests Coverage Results" MODIFIED="1472822153374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
     <SUITE FILE_PATH="coverage/SeconDok_Tests@test_positive__SeconDok_Tests.coverage" NAME="test_positive: SeconDok_Tests Coverage Results" MODIFIED="1472821847620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
   </component>
@@ -39,8 +39,8 @@
       <file leaf-file-name="test_register.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_register.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,8 @@
       <file leaf-file-name="main_module.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_module.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="-391">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -337,44 +337,44 @@
       <workItem from="1472821929066" duration="2479000" />
       <workItem from="1473062722065" duration="12714000" />
       <workItem from="1473078574650" duration="7575000" />
-      <workItem from="1473144895946" duration="4019000" />
+      <workItem from="1473144895946" duration="11848000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.05 at 17h 16m 54s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 12h 43m 18s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.05 at 17h 25m 44s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 12h 44m 59s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.05 at 17h 27m 35s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 12h 46m 54s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 10h 04m 56s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 12h 50m 04s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 10h 09m 28s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 12h 56m 31s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 10h 11m 58s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 13h 33m 12s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 10h 41m 27s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 13h 36m 35s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 10h 45m 45s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 13h 39m 42s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 11h 04m 17s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 13h 44m 46s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 11h 05m 58s.xml">
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 13h 50m 17s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27199000" />
+    <option name="totallyTimeSpent" value="35028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1688" y="16" width="1696" height="1026" extended-state="6" />
@@ -385,7 +385,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35487404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35487404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -495,14 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_module.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby22/lib/ruby/gems/2.2.0/gems/test-unit-3.0.8/lib/test/unit/testcase.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2079">
@@ -510,10 +502,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_register.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
           <folding />
         </state>
       </provider>
