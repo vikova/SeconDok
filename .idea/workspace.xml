@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SeconDok_Tests@test_register__SeconDok_Tests.coverage" NAME="test_register: SeconDok_Tests Coverage Results" MODIFIED="1473147856629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
+    <SUITE FILE_PATH="coverage/SeconDok_Tests@test_register__SeconDok_Tests.coverage" NAME="test_register: SeconDok_Tests Coverage Results" MODIFIED="1473149382502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
     <SUITE FILE_PATH="coverage/SeconDok_Tests@Run_test__TestRegistration___SeconDok_Tests.coverage" NAME="Run test 'TestRegistration': SeconDok_Tests Coverage Results" MODIFIED="1472822153374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
     <SUITE FILE_PATH="coverage/SeconDok_Tests@test_positive__SeconDok_Tests.coverage" NAME="test_positive: SeconDok_Tests Coverage Results" MODIFIED="1472821847620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeconDok_Tests" />
   </component>
@@ -39,8 +39,8 @@
       <file leaf-file-name="test_register.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_register.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+            <state relative-caret-position="374">
+              <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -337,17 +337,11 @@
       <workItem from="1472821929066" duration="2479000" />
       <workItem from="1473062722065" duration="12714000" />
       <workItem from="1473078574650" duration="7575000" />
-      <workItem from="1473144895946" duration="2928000" />
+      <workItem from="1473144895946" duration="4019000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.05 at 17h 13m 08s.xml">
-      <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="test_register__SeconDok_Tests - 2016.09.05 at 17h 15m 29s.xml">
-      <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="test_register__SeconDok_Tests - 2016.09.05 at 17h 16m 54s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
@@ -372,9 +366,15 @@
     <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 10h 45m 45s.xml">
       <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 11h 04m 17s.xml">
+      <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_register__SeconDok_Tests - 2016.09.06 at 11h 05m 58s.xml">
+      <configuration name="test_register: SeconDok_Tests" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26108000" />
+    <option name="totallyTimeSpent" value="27199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1688" y="16" width="1696" height="1026" extended-state="6" />
@@ -512,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_register.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+        <state relative-caret-position="374">
+          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
           <folding />
         </state>
       </provider>

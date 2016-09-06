@@ -77,8 +77,12 @@ class TestRegistration < Test::Unit::TestCase
        break
      end
    end
-#     @driver.find_element(css: '[data-id="2"]').click
-  #   @driver.find_element(css: '[data-id="3"]').click
+   @driver.find_elements(css: '[data-id="2"]').each do |institute|
+     institute.click if institute.displayed?
+   end
+   @driver.find_elements(css: '[data-id="3"]').each do |degree|
+     degree.click if degree.displayed?
+   end
 
 
    end
