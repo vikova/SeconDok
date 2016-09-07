@@ -1,8 +1,8 @@
 module MainModule
 
   def load_page
-    #@driver.navigate.to 'http://91.239.235.128/~secondok/#/'
-    @driver.navigate.to 'http://secondok.azubko.dev.ideus.biz/#/login'
+    @driver.navigate.to 'http://91.239.235.128/~secondok/#/'
+    #@driver.navigate.to 'http://secondok.azubko.dev.ideus.biz/#/login'
   end
 
   def register
@@ -39,9 +39,12 @@ module MainModule
 
     @driver.find_element(css: '[data-id="220"]').click
     sleep 3
+    @wait.until { @driver.find_elements(css: '.inp_search.inp_country input') }
     @driver.find_element(css: '.inp_search.inp_country input').send_keys 'харьков'
+    #binding.pry #stop test
     sleep 3
     #@driver.find_elements(:css, '.name').first.click
+    @wait.until { @driver.find_elements(:css, '.name') }
     @driver.find_elements(:css, '.name').each do |city|
       if city.displayed?
         city.click

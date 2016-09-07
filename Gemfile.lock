@@ -2,13 +2,20 @@ GEM
   specs:
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.1)
     ffi (1.9.14-x86-mingw32)
+    method_source (0.8.2)
     power_assert (0.2.2)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rubyzip (1.2.0)
     selenium-webdriver (2.53.4)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
+    slop (3.6.0)
     test-unit (3.0.8)
       power_assert
     websocket (1.2.3)
@@ -17,6 +24,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  pry
   selenium-webdriver
   test-unit
 

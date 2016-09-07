@@ -1,5 +1,6 @@
 require 'test/unit'
 require 'selenium-webdriver'
+require 'pry'
 require_relative 'main_module'
 
 class TestRegistration < Test::Unit::TestCase
