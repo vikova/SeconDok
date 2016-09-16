@@ -1,61 +1,67 @@
 module MainModule
 
-  def load_page
-    @driver.navigate.to 'http://91.239.235.128/~secondok/#/'
+ # def load_page
+    #@driver.navigate.to 'http://91.239.235.128/~secondok/#/'
     #@driver.navigate.to 'http://secondok.azubko.dev.ideus.biz/#/login'
-  end
+  #end
 
   def register
-    @wait.until { @driver.find_elements(css: '.btn.btn_white.btn_reg.ng-binding') }
-    @driver.find_element(css: '.btn.btn_white.btn_reg.ng-binding').click
+#    @wait.until { @driver.find_elements(css: '.btn.btn_white.btn_reg.ng-binding') }
+    find('.btn_reg').click
 
     sleep 3
-    @driver.find_element(:id, 'reg_email').send_keys 'test@test.com'
-    @driver.find_element(:id, 'reg_pwd').send_keys 'qqqqqqqq'
-    @driver.find_element(:id, 'reg_pwd_conf').send_keys 'qqqqqqqq'
+    find('#reg_email').set ('test@test.com')
+    find('#reg_pwd').set ('qqqqqqqq')
+    find('#reg_pwd_conf').set 'qqqqqqqq'
     sleep 3
-    @driver.find_element(css: '.btn.btn_green.btn_reg_first.ng-binding').click
+    find('.btn_reg_first').click
     sleep 3
   end
 
   def rules
-    @driver.find_element(css: '.btn.btn_green.btn_conf_rules.ng-binding').click
+    find('.btn_conf_rules').click
     sleep 3
   end
   def first_dot
-    @driver.find_element(:id, 'reg_name').send_keys 'Main'
-    @driver.find_element(:id, 'reg_surname').send_keys 'Doctor'
-    @driver.find_element(:id, 'ref_female').click
+    find('#reg_name').set 'Main'
+    find('#reg_surname').set 'Doctor'
+    find('#ref_female').click
 
 
-    @driver.find_element(css: '.btn.btn_white.btn_upload.btn_reg_avatar.ng-binding').click #choose by yourself
-    #@driver.find_element(:id,'reg_done_avatar').send_keys 'E:\QA Viktoriia\Изображения\r0X6OluAP7c.jpg'
+    #find('.btn_reg_avatar').click #choose by yourself
 
+    find(".btn_reg_avatar").click
     sleep 10
+    page.execute_script('$("#reg_avatar").data("E:\QA Viktoriia\Изображения\r0X6OluAP7c.jpg")')
+    find(".btn_save_avatar").click
+
+    #sleep 10
 
 
-    @driver.find_element(css: '.select.open_slide_pop').click
+    find('.select.open_slide_pop').click
+    sleep 3
+    #find('.inp_search.inp_country input').set 'украина'
+    find('*[data-id="220"]').click
     sleep 3
 
-    @driver.find_element(css: '[data-id="220"]').click
-    sleep 3
-    @wait.until { @driver.find_elements(css: '.inp_search.inp_country input') }
-    @driver.find_element(css: '.inp_search.inp_country input').send_keys 'харьков'
+    #wait_until { find('.inp_search.inp_country input') }
+     page.find(".inp_search.inp_country input", visible: true)
+    find('.inp_search.inp_country input').set ('харьков')
     #binding.pry #stop test
-    sleep 3
+    sleep 10
     #@driver.find_elements(:css, '.name').first.click
-    @wait.until { @driver.find_elements(:css, '.name') }
-    @driver.find_elements(:css, '.name').each do |city|
-      if city.displayed?
+    #@wait.until { @driver.find_elements(:css, '.name') }
+    find('.name').each do |city|
+      if city.visible?
         city.click
-        break
+       break
       end
     end
 
     sleep 3
-    @driver.find_element(:id, 'reg_tel').send_keys '666666666'
+    find('#reg_tel').set '666666666'
     sleep 3
-    @driver.find_element(css: '.go_next div').click
+    find('.go_next div').click
     sleep 5
   end
 

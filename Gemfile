@@ -1,3 +1,6 @@
 gem 'test-unit'
 gem 'selenium-webdriver'
 gem 'pry'
+gem 'capybara'
+gem 'chromedriver-helper'
+gem  'test-unit-capybara'
