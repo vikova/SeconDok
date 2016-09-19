@@ -30,33 +30,25 @@ module MainModule
 
     #find('.btn_reg_avatar').click #choose by yourself
 
-    find(".btn_reg_avatar").click
-    sleep 10
-    page.execute_script('$("#reg_avatar").data("E:\QA Viktoriia\Изображения\r0X6OluAP7c.jpg")')
-    find(".btn_save_avatar").click
-
+   # find(".btn_reg_avatar").click
     #sleep 10
+   # page.execute_script('$("#reg_avatar").data("E:\QA Viktoriia\Изображения\r0X6OluAP7c.jpg")')
+    #find(".btn_save_avatar").click
+
+    sleep 10
 
 
     find('.select.open_slide_pop').click
     sleep 3
     #find('.inp_search.inp_country input').set 'украина'
-    find('*[data-id="220"]').click
+    find('*[data-c="ua"]').click
     sleep 3
 
-    #wait_until { find('.inp_search.inp_country input') }
-     page.find(".inp_search.inp_country input", visible: true)
+    page.find(".inp_search.inp_country input", visible: true)
     find('.inp_search.inp_country input').set ('харьков')
     #binding.pry #stop test
     sleep 10
-    #@driver.find_elements(:css, '.name').first.click
-    #@wait.until { @driver.find_elements(:css, '.name') }
-    find('.name').each do |city|
-      if city.visible?
-        city.click
-       break
-      end
-    end
+    find('*[data-id="6"]').click
 
     sleep 3
     find('#reg_tel').set '666666666'
@@ -66,66 +58,36 @@ module MainModule
   end
 
   def second_dot
-    @wait.until { @driver.find_elements(css: '.block_cval') }
-    @driver.find_elements(:id,'reg_cval').each do |cval|
-      cval.click if cval.displayed?
-    end
-    @driver.find_elements(css: '.inp_search.inp_country input').each do |cat|
-      cat.send_keys 'второй' if cat.displayed?
-    end
-    sleep 3
-    @driver.find_elements(css: '[data-id="5"]').each do |qual|
-      qual.click if qual.displayed?
 
-    end
+    find('#reg_cval').click
+    find('.inp_search.inp_country input').set 'второй'
+    sleep 3
+    find('*[data-id="5"]').click
     sleep 3
 
-    @driver.find_elements(css: '.block_educ').each do |educ|
-      educ.click if educ.displayed?
-    end
+    find('.block_educ').click
     sleep 3
-    @driver.find_elements(css: '[data-id="220"]').each do |country|
-      country.click if country.displayed?
-    end
+    find('*[data-id="220"]').click
     sleep 3
-    @driver.find_elements(css: '.inp_search.inp_country input').each do |search|
-      search.send_keys 'харьков' if search.displayed?
-    end
-    sleep 3
-    @driver.find_elements(:css, '.name').each do |city|
-      if city.displayed?
-        city.click
-        break
-      end
-    end
-    @driver.find_elements(css: '[data-id="2"]').each do |institute|
-      institute.click if institute.displayed?
-    end
-    @driver.find_elements(css: '[data-id="3"]').each do |degree|
-      degree.click if degree.displayed?
-    end
-    @wait.until { @driver.find_elements(css: '.btn.btn_white.btn_upload.ng-binding') }
-    @driver.find_elements(css: '.btn.btn_white.btn_upload.ng-binding').each do |button|
-      button.click if button.displayed?
-    end
-    sleep 5
-    @driver.find_elements(css: '[data-file="front"]').each do |front_photo|
-      front_photo.click if front_photo.displayed?
-    end
+    page.find(".inp_search.inp_country input", visible: true)
+    find('.inp_search.inp_country input').set ('харьков')
     sleep 10
-    @driver.find_elements(css: '[data-file="back"]').each do |back_photo|
-      back_photo.click if back_photo.displayed?
-    end
+    find('*[data-id="6"]').click
+
+    find('[data-id="2"]').click
+    find('*[data-id="3"]').click
+
+    find('.btn.btn_white.btn_upload.ng-binding').click
+    sleep 5
+    find('*[data-file="front"]')..click
+    sleep 10
+    find('*[data-file="back"]').click
     sleep 10
 
-    @driver.find_elements(css: '.btn.btn_blue.btn_save_educ.ng-binding').each do |save_photo|
-      save_photo.click if save_photo.displayed?
-    end
+    find('.btn.btn_blue.btn_save_educ.ng-binding').click
     sleep 5
-    @wait.until { @driver.find_elements(css: '.acts_block') }
-    @driver.find_elements(css: '.btn.btn_green.ng-binding').each do |next_button|
-      next_button.click if next_button.displayed?
-    end
+
+    find('.btn.btn_green.ng-binding').click
     sleep 5
   end
 
@@ -141,10 +103,10 @@ module MainModule
       educt.click if educt.displayed?
     end
     @driver.find_elements(css: '.inp_search.inp_country input').each do |hospital|
-      hospital.send_keys 'второй' if hospital.displayed?
+      hospital.send_keys 'центр' if hospital.displayed?
     end
     sleep 3
-    @driver.find_elements(css: '[data-id="5"]').each do |hospital1|
+    @driver.find_elements(css: '[data-id="31"]').each do |hospital1|
       hospital1.click if hospital1.displayed?
     end
     # @driver.find_elements(css: '.inp_search.inp_country input').each do |year_start| year_start.send_keys '2010' if year_start.displayed? end

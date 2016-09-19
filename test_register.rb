@@ -21,7 +21,8 @@ class TestRegistration < Test::Unit::TestCase
     Capybara.register_driver :selenium do |app|
       Capybara::Selenium::Driver.new(app, :browser => :chrome)
     end
-    Capybara.app_host = 'http://secondok.azubko.dev.ideus.biz/#/login'
+    Capybara.app_host = 'http://91.239.235.128/~secondok/#/'
+    #Capybara.app_host = 'http://secondok.afedorovsky.dev.ideus.biz/#/registration'
   end
 
   def load_page
@@ -34,7 +35,7 @@ class TestRegistration < Test::Unit::TestCase
     register
     rules
     first_dot
-    #second_dot
+    second_dot
     #third_dot
     #fouth_dot
     #fifth_dot
