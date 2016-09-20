@@ -22,11 +22,15 @@ class TestRegistration < Test::Unit::TestCase
       Capybara::Selenium::Driver.new(app, :browser => :chrome)
     end
     Capybara.app_host = 'http://91.239.235.128/~secondok/#/'
+    page.driver.browser.navigate.refresh
+    page.evaluate_script 'window.location.reload()'
     #Capybara.app_host = 'http://secondok.afedorovsky.dev.ideus.biz/#/registration'
   end
 
   def load_page
     visit('/')
+    page.driver.browser.navigate.refresh
+    page.evaluate_script 'window.location.reload()'
   end
 
   def test_register
@@ -36,15 +40,15 @@ class TestRegistration < Test::Unit::TestCase
     rules
     first_dot
     second_dot
-    #third_dot
-    #fouth_dot
-    #fifth_dot
-    #finish
+    third_dot
+    fouth_dot
+    fifth_dot
+    finish
     sleep 2
     #expected_test = 'Ваши данные отправлены на проверку. Мы свяжемся с Вами для подтверждения информации в ближайшее время'
-   # actual_test = @driver.find_element(css: '.end_text.ng-binding') #.text
+    actual_test = find('.end_text.ng-binding') #.text
    # assert_equal(expected_test, actual_test)
-   # assert(actual_test.displayed?)
+    assert(actual_test.visible?)
   end
 
   def teardown # close browser
