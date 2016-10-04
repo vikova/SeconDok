@@ -4,7 +4,7 @@ module MainModule
     find('.btn_reg').click
 
     sleep 3
-    find('#reg_email').set ('test@test.com')
+    find('#reg_email').set ('test2@test.com')
     find('#reg_pwd').set ('qqqqqqqq')
     find('#reg_pwd_conf').set 'qqqqqqqq'
     sleep 10
@@ -69,7 +69,16 @@ module MainModule
     sleep 10
     find('*[data-id="6"]').click
 
-    find('[data-id="2"]').click
+    #find('[data-id="2"]').click
+    all(:css, '.l_c').each do |year|
+      year.click if year.text == '1999'
+    end
+    #find('*[data-id="3"]').click
+    all(:css, '.l_c').each do |year|
+      year.click if year.text == '2000'
+    end
+
+    find('*[data-id="1"]').click
     find('*[data-id="3"]').click
 
     find('.btn.btn_white.btn_upload.ng-binding').click
@@ -85,6 +94,7 @@ module MainModule
     find('.btn.btn_green.ng-binding').click
     sleep 5
   end
+
 
   def third_dot
 #    page.find("#reg_tags", visible: true)
